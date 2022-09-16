@@ -411,3 +411,7 @@ img {
   display: flex;
   justify-content: center;
 }
+.icon {
+  gap: 30px;
+  margin: 0 auto;
+}
