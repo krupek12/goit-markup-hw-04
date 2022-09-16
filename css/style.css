@@ -406,3 +406,8 @@ img {
   padding: 94px 0;
   margin: 0 auto;
 }
+/* svg*/
+.icon-list {
+  display: flex;
+  align-items: center;
+}
