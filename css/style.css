@@ -9,6 +9,7 @@
   --text-color-2: #ffffff;
   --border-color: #ececec;
   --border-card: #eeeeee;
+  --social-media: #afb1b8;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -265,7 +266,7 @@ h2 {
   padding: 0;
   margin: 0;
   max-width: 270px;
-  height: 368px;
+  height: 428px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   background-color: var(--background-color);
@@ -423,4 +424,10 @@ img {
 .social-list {
   display: flex;
   list-style-type: none;
+}
+.social-media {
+  width: 20px;
+  height: 20px;
+  color: var(--social-media);
+  gap: 10px;
 }
