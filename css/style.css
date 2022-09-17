@@ -415,3 +415,8 @@ img {
   gap: 30px;
   margin: 0 auto;
 }
+.icon-contact {
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+}
