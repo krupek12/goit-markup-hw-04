@@ -289,6 +289,7 @@ h2 {
   line-height: 1.18;
   color: var(--text-color-3);
   justify-content: center;
+  margin-bottom: 16px;
 }
 figcaption {
   text-align: center;
@@ -424,10 +425,20 @@ img {
 .social-list {
   display: flex;
   list-style-type: none;
+  gap: 10px;
 }
 .social-media {
   width: 20px;
   height: 20px;
-  color: var(--social-media);
-  gap: 10px;
+  stroke: var(--social-media);
+}
+.clients-list {
+  list-style: none;
+  justify-content: center;
+  stroke: var(--social-media);
+  gap: 30px;
+}
+.clients-svg {
+  stroke: solid var(--social-media);
+  border-radius: 4px;
 }
