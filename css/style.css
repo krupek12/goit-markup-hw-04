@@ -443,6 +443,8 @@ img {
   position: relative;
 }
 .clients-list {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   justify-content: center;
   stroke: var(--social-media);
