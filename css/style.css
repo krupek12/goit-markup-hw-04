@@ -253,7 +253,7 @@ h2 {
 
 .our-team {
   background-color: var(--box-2-color);
-  height: 648px;
+  height: 708px;
   width: 100%;
 }
 .our-team-img {
@@ -431,6 +431,13 @@ img {
   width: 20px;
   height: 20px;
   stroke: var(--social-media);
+}
+.cllients {
+  width: 1600px;
+  height: 372px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 .clients-list {
   list-style: none;
