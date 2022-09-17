@@ -425,9 +425,11 @@ img {
 .social-list {
   display: flex;
   list-style-type: none;
+  position: relative;
   gap: 10px;
 }
 .social-media {
+  position: relative;
   width: 20px;
   height: 20px;
   stroke: var(--social-media);
@@ -438,6 +440,7 @@ img {
   padding: 0;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .clients-list {
   list-style: none;
