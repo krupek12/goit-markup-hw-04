@@ -420,3 +420,7 @@ img {
   top: 3px;
   margin-right: 10px;
 }
+.social-list {
+  display: flex;
+  list-style-type: none;
+}
