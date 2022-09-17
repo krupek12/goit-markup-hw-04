@@ -430,6 +430,7 @@ img {
 }
 .social-media {
   position: relative;
+  justify-content: center;
   width: 20px;
   height: 20px;
   stroke: var(--social-media);
@@ -453,4 +454,16 @@ img {
 .clients-svg {
   stroke: solid var(--social-media);
   border-radius: 4px;
+}
+.aside {
+  display: flex;
+  color: var(--text-color-2);
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 531px;
+}
+.social-list-ftr {
+  list-style: none;
+  display: flex;
+  position: relative;
 }
