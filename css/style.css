@@ -503,3 +503,13 @@ img {
   width: 20px;
   height: 20px;
 }
+.clients-svg:hover,
+.clients-svg:focus {
+  fill: var(--logo-color);
+  background-color: var(--text-color-2);
+}
+.social-media:hover,
+.social-media:focus {
+  fill: var(--text-color-2);
+  background-color: var(--logo-color);
+}
