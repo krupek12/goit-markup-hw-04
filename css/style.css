@@ -418,9 +418,13 @@ img {
   margin: 0 auto;
 }
 .icon-contact {
+  display: flex;
   position: relative;
   top: 3px;
   margin-right: 10px;
+}
+.icon-contact:hover {
+  color: var(--logo-color);
 }
 .social-list {
   display: flex;
@@ -435,7 +439,7 @@ img {
   align-items: center;
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--social-media);
 }
 .cllients {
   width: 1600px;
