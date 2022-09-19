@@ -428,7 +428,7 @@ img {
 }
 .icon-smartphone {
   position: relative;
-  top: 2px;
+  top: 1px;
 }
 .active:hover,
 .active:focus {
