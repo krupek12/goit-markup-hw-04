@@ -419,12 +419,12 @@ img {
 }
 .icon-contact {
   fill: var(--social-media);
-  display: flex;
+  display: block;
   position: relative;
   top: 3px;
   margin-right: 10px;
 }
-.icon-contact:hover svg {
+.contact-link.icon-contact:hover {
   fill: var(--logo-color);
 }
 .social-list {
