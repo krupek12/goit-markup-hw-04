@@ -448,10 +448,14 @@ img {
   flex-direction: row;
   list-style: none;
   justify-content: center;
-
   gap: 30px;
 }
-
+.client-svg {
+  width: 170px;
+  height: 92px;
+  border: solid 1px var(--social-media);
+  border-radius: 4px;
+}
 .aside {
   display: flex;
   color: var(--text-color-2);
