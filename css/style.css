@@ -423,7 +423,7 @@ img {
   top: 3px;
   margin-right: 10px;
 }
-.icon-contact:hover {
+.icon-contact:hover svg {
   color: var(--logo-color);
 }
 .social-list {
@@ -437,8 +437,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   fill: var(--social-media);
 }
 .cllients {
