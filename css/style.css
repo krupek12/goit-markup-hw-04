@@ -419,7 +419,7 @@ img {
 }
 .icon-contact {
   position: relative;
-  top: 33px;
+  top: 3px;
   margin-right: 10px;
 }
 .social-list {
@@ -434,7 +434,7 @@ img {
   align-items: center;
   width: 20px;
   height: 20px;
-  color: var(--social-media);
+  color: currentColor;
 }
 .cllients {
   width: 1600px;
@@ -442,20 +442,16 @@ img {
   padding: 0;
   display: flex;
   justify-content: center;
-  position: relative;
 }
 .clients-list {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: center;
-  stroke: var(--social-media);
+
   gap: 30px;
 }
-.clients-svg {
-  stroke: solid var(--social-media);
-  border-radius: 4px;
-}
+
 .aside {
   display: flex;
   color: var(--text-color-2);
