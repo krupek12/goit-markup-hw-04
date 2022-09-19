@@ -425,7 +425,7 @@ img {
   margin-right: 10px;
 }
 .icon-contact:hover svg {
-  color: var(--logo-color);
+  fill: var(--logo-color);
 }
 .social-list {
   display: flex;
