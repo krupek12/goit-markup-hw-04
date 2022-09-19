@@ -418,6 +418,7 @@ img {
   margin: 0 auto;
 }
 .icon-contact {
+  fill: var(--social-media);
   display: flex;
   position: relative;
   top: 3px;
@@ -458,8 +459,7 @@ img {
 .client-svg {
   width: 170px;
   height: 92px;
-  border: solid 1px var(--social-media);
-  border-radius: 4px;
+  fill: var(--social-media);
 }
 .aside {
   display: flex;
