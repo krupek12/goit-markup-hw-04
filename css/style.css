@@ -434,7 +434,7 @@ img {
   align-items: center;
   width: 20px;
   height: 20px;
-  color: currentColor;
+  fill: currentColor;
 }
 .cllients {
   width: 1600px;
