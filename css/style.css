@@ -441,6 +441,7 @@ img {
   width: 20px;
   height: 20px;
   fill: var(--social-media);
+  cursor: pointer;
 }
 .cllients {
   width: 1600px;
@@ -460,7 +461,9 @@ img {
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-media);
+  border-radius: 4px;
   fill: var(--social-media);
+  cursor: pointer;
 }
 .aside {
   display: flex;
