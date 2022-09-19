@@ -374,8 +374,9 @@ address {
 
 .portfolio-card:hover,
 .portfolio-card:focus {
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16), 0px 0px 4px rgba(0, 0, 0, 0.6),
-    0px 0px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 6px 4px 1px 1px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.6),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 img {
   display: block;
@@ -385,7 +386,6 @@ img {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  text-align: left;
   gap: 4px;
   width: fit-content;
   display: inline-block;
@@ -398,6 +398,7 @@ img {
   width: 370px;
   margin-top: 0;
   padding-top: 20px;
+  padding-left: 24px;
 }
 
 .button-box1 {
