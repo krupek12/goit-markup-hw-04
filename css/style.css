@@ -408,7 +408,7 @@ img {
   padding: 94px 0;
   margin: 0 auto;
 }
-/* svg*/
+/* ...............svg*/
 .icons-list {
   display: flex;
   justify-content: center;
@@ -437,8 +437,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   fill: var(--social-media);
 }
 .cllients {
