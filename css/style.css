@@ -430,7 +430,7 @@ img {
 .social-list {
   display: flex;
   list-style-type: none;
-  row-gap: 10px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -456,9 +456,10 @@ img {
   justify-content: center;
   gap: 30px;
 }
-.client-svg {
+.clients-svg {
   width: 170px;
   height: 92px;
+  border: 1px solid var(--social-media);
   fill: var(--social-media);
 }
 .aside {
