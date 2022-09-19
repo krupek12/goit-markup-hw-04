@@ -426,6 +426,10 @@ img {
   top: 3px;
   margin-right: 10px;
 }
+.icon-smartphone {
+  position: relative;
+  top: 2px;
+}
 .active:hover {
   fill: var(--logo-color);
 }
@@ -506,7 +510,7 @@ img {
 .clients-svg:hover,
 .clients-svg:focus {
   fill: var(--logo-color);
-  background-color: var(--text-color-2);
+  border: 1px solid var(--logo-color);
 }
 .social-media:hover,
 .social-media:focus {
