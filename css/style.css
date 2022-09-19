@@ -430,8 +430,10 @@ img {
   position: relative;
   top: 2px;
 }
-.active:hover {
+.active:hover,
+.active:focus {
   fill: var(--logo-color);
+  background-color: var(--text-color-2);
 }
 .icons-list {
   display: flex;
@@ -493,19 +495,22 @@ img {
   color: var(--text-color-2);
   font-size: 14px;
   font-weight: 700;
-  margin-left: 531px;
 }
+
 .social-list-ftr {
   list-style: none;
   display: flex;
   position: relative;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 .social-media-ftr {
   border-radius: 50%;
   fill: var(--text-color-2);
   background-color: rgba(255, 255, 255, 0.1);
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
 }
 .clients-svg:hover,
 .clients-svg:focus {
@@ -514,6 +519,11 @@ img {
 }
 .social-media:hover,
 .social-media:focus {
+  fill: var(--text-color-2);
+  background-color: var(--logo-color);
+}
+.social-media-ftr:hover,
+.social-media-ftr:focus {
   fill: var(--text-color-2);
   background-color: var(--logo-color);
 }
