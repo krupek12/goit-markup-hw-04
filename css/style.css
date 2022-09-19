@@ -409,6 +409,16 @@ img {
   margin: 0 auto;
 }
 /* ...............svg*/
+
+.icon-contact {
+  fill: var(--social-media);
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+}
+.active:hover {
+  fill: var(--logo-color);
+}
 .icons-list {
   display: flex;
   justify-content: center;
@@ -416,16 +426,6 @@ img {
 .icon {
   gap: 30px;
   margin: 0 auto;
-}
-.icon-contact {
-  fill: var(--social-media);
-  display: block;
-  position: relative;
-  top: 3px;
-  margin-right: 10px;
-}
-.contact-link.icon-contact:hover {
-  fill: var(--logo-color);
 }
 .social-list {
   display: flex;
