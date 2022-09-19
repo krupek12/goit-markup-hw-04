@@ -425,15 +425,16 @@ img {
 .social-list {
   display: flex;
   list-style-type: none;
-  position: relative;
   gap: 10px;
+  flex-direction: row;
 }
 .social-media {
-  position: relative;
+  display: flex;
   justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
-  stroke: var(--social-media);
+  color: var(--social-media);
 }
 .cllients {
   width: 1600px;
