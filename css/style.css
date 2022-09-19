@@ -369,11 +369,11 @@ address {
   margin-bottom: 30px;
   position: relative;
   cursor: pointer;
+  display: block;
 }
-.portfolio-card:hover::before {
-  box-shadow: none;
-}
-.portfolio-card:hover::after {
+
+.portfolio-card:hover,
+.portfolio-card:focus {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16), 0px 0px 4px rgba(0, 0, 0, 0.6),
     0px 0px 1px rgba(0, 0, 0, 0.12);
 }
@@ -441,19 +441,26 @@ img {
   list-style-type: none;
   gap: 10px;
   justify-content: center;
-  width: 206px;
-  height: 56px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
 }
-.social-media {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20px;
-  height: 20px;
-  border: none;
+.social-list li {
   fill: var(--social-media);
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-color-2);
 }
+
+.social-media {
+  display: flex;
+  fill: var(--social-media);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
 .cllients {
   width: 1600px;
   height: 372px;
