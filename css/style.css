@@ -432,7 +432,6 @@ img {
   list-style-type: none;
   gap: 10px;
   justify-content: center;
-  align-items: center;
   width: 206px;
   height: 56px;
 }
@@ -440,8 +439,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   border: none;
   fill: var(--social-media);
   cursor: pointer;
@@ -479,4 +478,11 @@ img {
   list-style: none;
   display: flex;
   position: relative;
+}
+.social-media-ftr {
+  border-radius: 50%;
+  fill: var(--text-color-2);
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
 }
