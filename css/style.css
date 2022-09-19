@@ -425,8 +425,9 @@ img {
 .social-list {
   display: flex;
   list-style-type: none;
-  gap: 10px;
-  flex-direction: row;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .social-media {
   display: flex;
