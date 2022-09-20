@@ -433,6 +433,9 @@ img {
 link:hover .icon-contact {
   fill: var(--logo-color);
 }
+.contact-link:hover .icon-contact {
+  fill: var(--logo-color);
+}
 .active:hover,
 .active:focus {
   fill: var(--logo-color);
