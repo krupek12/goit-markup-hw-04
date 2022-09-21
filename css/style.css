@@ -493,6 +493,7 @@ img {
   border-radius: 4px;
   fill: var(--social-media);
   cursor: pointer;
+  padding: 10px;
 }
 .headline-ftr {
   color: var(--text-color-2);
